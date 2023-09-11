@@ -17,8 +17,7 @@ export function draw(gameBoard) {
       foodElement.style.gridRowStart = food.y
       foodElement.style.gridColumnStart = food.x
       foodElement.classList.add('food')
-      gameBoard.appendChild(foodElement) 
-     
+      gameBoard.appendChild(foodElement)  
 }
 
 function getRandomFoodPosition() { 
